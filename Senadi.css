@@ -1,0 +1,263 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #333;
+  padding: 10px 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header .logo h1 {
+  font-size: 2rem;
+  color: #ff9900;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header .nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+header .nav-links li a:hover {
+  color: #ff9900;
+}
+
+/* Hero Section */
+.hero {
+  background: url('hero-bg.jpg') center/cover no-repeat;
+  padding: 100px 20px;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background: #ff9900;
+  padding: 15px 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #e68a00;
+}
+
+/* Services */
+.services {
+  background: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.service-item {
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+  transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+  transform: scale(1.05);
+}
+
+.service-item h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Why Choose Us */
+.why-choose {
+  background: #ff9900;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.why-choose ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-choose li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Portfolio */
+.portfolio {
+  background: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.portfolio h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.portfolio-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.portfolio-item {
+  width: 30%;
+}
+
+.portfolio-item img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Testimonials */
+.testimonials {
+  background: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.testimonials blockquote {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.testimonials footer {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* About Section */
+.about {
+  background: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Contact Section */
+.contact {
+  background: #333;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+  padding: 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.contact button {
+  background: #ff9900;
+  padding: 15px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: #e68a00;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+footer .footer-links li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer .footer-links li a:hover {
+  color: #ff9900;
+}
